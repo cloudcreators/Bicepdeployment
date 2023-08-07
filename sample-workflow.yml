@@ -9,12 +9,12 @@ permissions:
       contents: read
 
 env:
-  Location: "norwayeast"
+  Location: "westeurope"
   ManagementGroupPrefix: "alz"
-  identityManagementGroup: "alz-platform-identity"
-  managementManagementGroup: "alz-platform-management"
-  connectivityManagementGroup: "alz-platform-connectivity"
-  LZManagementGroup: "alz-landing-zone"
+  identityManagementGroup: "alz"
+  managementManagementGroup: "alz"
+  connectivityManagementGroup: "alz"
+  LZManagementGroup: "alz"
   
 jobs:
   deploy_job:
